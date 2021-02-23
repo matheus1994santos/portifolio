@@ -292,3 +292,20 @@ section.box-facebook article.container center div.slide{
 
 
 /* ************* -------------------------------------        Facebook      ------------------------------------------- **************** */
+
+/* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
+
+footer{display: inline-block; width: 100%;}
+
+footer header { background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
+
+footer header center {  }
+
+footer header center a {  }
+
+footer header center a img { width: 180px; opacity: 0.7; }
+footer header center a img:hover { opacity: 1; }
+
+footer div.container {  }
+
+/* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
