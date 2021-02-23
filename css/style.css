@@ -17,6 +17,23 @@ li{ list-style: none;}
 
 .clear{clear: both;}
 
+.seta-right{
+	display: inline-block; margin: 0 0 -4px -4px; padding: 0; width: 50px; height: 50px;
+	background-image: url('../image/icon/seta-right.png'); background-size: contain;
+	position: absolute;   right: 0; right: 40px; top: 155px; cursor: pointer;
+}
+
+.seta-left{
+	display: inline-block; margin: 0 0 -4px -4px; padding: 0; width: 50px; height: 50px;
+	background-image: url('../image/icon/seta-left.png'); background-size: contain;
+	position: absolute; left: 0; left: 40px; top: 160px; cursor: pointer;
+}
+
+.slide{
+	display: inline-block; width: 608px; height: 378px; margin: 0 0 -4px -4px; 
+	background-color: black; position: relative; left: 155px;
+}
+
 /*  -----   Standard settings ------ */
 
 /* @media Query Maximum width 430px in the header */
@@ -137,7 +154,8 @@ section.box-youtube header center nav ul li a:hover {
 }
 
 section.box-youtube article.container{
-	border: 1px solid #c4302b;  width: 1080px; height: 600px;
+	border: 1px solid #c4302b;  width: 1080px; height: 380px;
+	position: relative;
 }
 
 
@@ -177,9 +195,8 @@ section.box-twitch header center nav ul li a:hover {
 }
 
 section.box-twitch article.container{
-	border: 1px solid #00acee; width: 1080px; height: 600px;
+	border: 1px solid #00acee; width: 1080px; height: 380px;
 }
-
 
 
 /* ************* -------------------------------------         Twitch       ------------------------------------------- **************** */
@@ -216,7 +233,7 @@ section.box-facebook header center nav ul li a:hover {
 }
 
 section.box-facebook article.container{
-	border: 1px solid #3b5998; width: 1080px; height: 480px;
+	border: 1px solid #3b5998; width: 1080px; height: 380px;
 }
 
 
