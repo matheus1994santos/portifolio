@@ -1,0 +1,224 @@
+/* Standard settings */
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.container, #container{
+	max-width: 980px; padding: 0 2%; margin: 0 auto;
+}
+
+header{display: inline-block; width: 100%;}
+
+a{
+	color: black; text-decoration: none;
+}
+
+li{ list-style: none;}
+
+.clear{clear: both;}
+
+/*  -----   Standard settings ------ */
+
+/* @media Query Maximum width 430px in the header */
+
+header.header{background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
+
+header div.container a.logo{
+	float: left; margin: 15px 0 2px 0; width: 90px; font-size: 22px; 
+}
+
+header div.container a.logo div{ 
+	position: relative; right: 40px;
+	display: inline-block;  width: 180px; height: 90px; border-radius:20px 20px; 
+	background: url('../image/logo/NorFerro.txt1.gif'); background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+
+header div.container nav {
+	float: right; margin-right: 2%; 
+}
+
+header div.container nav ul.menu-desktop{
+	position: relative; left: 40px; top: 48px;
+	display: flex; text-align: center;
+}
+
+header div.container nav ul.menu-desktop li{
+	display: inline-flex; width: 85px;  
+}
+
+header div.container nav ul.menu-desktop li a {
+	color: white; font-size: 19px;
+}
+
+header div.container nav ul.menu-desktop li a:hover {
+	border-bottom: 4px solid white;
+}
+
+header div.container nav ul.menu-mobile{
+	display: none;
+}
+
+header div.container nav ul.menu-mobile li{position: relative; top: 38px; background-color: white; border-radius: 18px 18px;}
+
+@media only screen and (max-width: 500px) {
+	/*  -----   Standard settings ------ */
+	.container, #container{
+		max-width: 390px; padding: 0 2%; margin: 0 auto;
+	}
+	/*  -----   Standard settings ------ */
+
+	header{ max-width: 500px; width: 100%;}
+	
+	section#container{  }
+
+	header div.container a.logo{
+		margin: 12px 0 2px 0; 
+	}
+
+	header div.container a.logo div{ width: 120px; height: 60px; }
+
+	header div.container nav ul.menu-desktop{ display: none; }
+
+	header div.container nav ul.menu-mobile{ display: inline-block; width: 78px; height: auto; margin: 8px 1%; text-align: center;}
+
+	header div.container nav ul.menu-mobile li{
+		display:inline-block; width:70px;  margin: -1px 2px; border: 1px solid black;
+		position: relative; top: 34px; background-color: white; border-radius: 18px 18px;
+	}
+	
+
+} 
+
+/* ************* -------------------------------------        Banner       ------------------------------------------- **************** */
+
+section.cont-banner{
+	display: inline-block; width: 100%; 
+}
+
+section.cont-banner center{
+	max-width: 980px; margin: 0 auto;
+}
+
+section.cont-banner center img{
+	max-width: 760px; width: 100%; padding: 0 4%; 
+}
+
+/* ************* -------------------------------------        Banner       ------------------------------------------- **************** */
+
+/* ************* -------------------------------------        Youtube      ------------------------------------------- **************** */
+
+section.box-youtube{
+	display: inline-block; width: 100%; 
+}
+
+section.box-youtube header{
+	background-color:  #c4302b; height: 42px;
+}
+
+section.box-youtube header center nav {
+	margin: 0 2%; width: 500px;
+}
+
+section.box-youtube header center nav ul {
+	/* position: relative; left: 40px; top: 48px; */
+	display: flex; text-align: center;
+}
+
+section.box-youtube header center nav ul li {
+	display: inline-flex; padding: 10px 4%;  
+}
+
+section.box-youtube header center nav ul li a {
+	color: white; font-size: 19px;
+}
+
+section.box-youtube header center nav ul li a:hover {
+	border-bottom: 4px solid white;
+}
+
+section.box-youtube article.container{
+	border: 1px solid #c4302b;  width: 1080px; height: 600px;
+}
+
+
+
+
+/* ************* -------------------------------------         Youtube      ------------------------------------------- **************** */
+
+/* ************* -------------------------------------         Twitch       ------------------------------------------- **************** */
+
+section.box-twitch{
+	display: inline-block; width: 100%; 
+}
+
+section.box-twitch header{
+	background-color: #00acee; height: 42px;
+}
+
+section.box-twitch header center nav {
+	margin: 0 2%; width: 500px;
+}
+
+section.box-twitch header center nav ul {
+	/* position: relative; left: 40px; top: 48px; */
+	display: flex; text-align: center;
+}
+
+section.box-twitch header center nav ul li {
+	display: inline-flex; padding: 10px 4%;  
+}
+
+section.box-twitch header center nav ul li a {
+	color: white; font-size: 19px;
+}
+
+section.box-twitch header center nav ul li a:hover {
+	border-bottom: 4px solid white;
+}
+
+section.box-twitch article.container{
+	border: 1px solid #00acee; width: 1080px; height: 600px;
+}
+
+
+
+/* ************* -------------------------------------         Twitch       ------------------------------------------- **************** */
+
+/* ************* -------------------------------------        Facebook      ------------------------------------------- **************** */
+
+section.box-facebook{
+	display: inline-block; width: 100%; 
+}
+
+section.box-facebook header{
+	background-color: #3b5998; height: 42px;
+}
+
+section.box-facebook header center nav {
+	margin: 0 2%; width: 500px;
+}
+
+section.box-facebook header center nav ul {
+	/* position: relative; left: 40px; top: 48px; */
+	display: flex; text-align: center;
+}
+
+section.box-facebook header center nav ul li {
+	display: inline-flex; padding: 10px 4%;  
+}
+
+section.box-facebook header center nav ul li a {
+	color: white; font-size: 19px;
+}
+
+section.box-facebook header center nav ul li a:hover {
+	border-bottom: 4px solid white;
+}
+
+section.box-facebook article.container{
+	border: 1px solid #3b5998; width: 1080px; height: 480px;
+}
+
+
+
+/* ************* -------------------------------------        Facebook      ------------------------------------------- **************** */
