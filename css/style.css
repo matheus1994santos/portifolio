@@ -26,12 +26,37 @@ li{ list-style: none;}
 .seta-left{
 	display: inline-block; margin: 0 0 -4px -4px; padding: 0; width: 50px; height: 50px;
 	background-image: url('../image/icon/seta-left.png'); background-size: contain;
-	position: absolute; left: 0; left: 40px; top: 160px; cursor: pointer;
+	position: absolute; left: 0; left: 40px; top: 168px; cursor: pointer;
 }
 
-.slide{
-	display: inline-block; width: 608px; height: 378px; margin: 0 0 -4px -4px; 
-	background-color: black; position: relative; left: 155px;
+.vd1{
+	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px;
+}
+.vd2{
+	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px; 
+}
+.vd3{
+	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px;
+}
+
+@media only screen and (max-width: 500px){
+	.vd1{
+		max-width: 280px; left: 45px; top: 0; top: 110px;
+	}
+	.vd2{
+		max-width: 280px; left: 45px; top: 0; top: 110px;
+	}
+	.vd3{
+		max-width: 280px; left: 45px; top: 0; top: 110px;
+	}
+
+	.seta-right{
+		right: 0; top: 0; top: 165px;
+	}
+	
+	.seta-left{
+		left: 0; left: 4px;
+	}
 }
 
 /*  -----   Standard settings ------ */
@@ -154,10 +179,18 @@ section.box-youtube header center nav ul li a:hover {
 }
 
 section.box-youtube article.container{
-	border: 1px solid #c4302b;  width: 1080px; height: 380px;
+	border: 1px solid #c4302b;  width: 1080px; width: 100%; height: 380px;
 	position: relative;
 }
 
+section.box-youtube article.container center{
+	 height: 378px;
+}
+
+section.box-youtube article.container center div.slide{
+	position: relative; height: 378px; display: inline-block; max-width: 500px; width: 100%; 
+
+}
 
 
 
@@ -170,7 +203,7 @@ section.box-twitch{
 }
 
 section.box-twitch header{
-	background-color: #00acee; height: 42px;
+	background-color: #6441a5; height: 42px;
 }
 
 section.box-twitch header center nav {
@@ -195,7 +228,17 @@ section.box-twitch header center nav ul li a:hover {
 }
 
 section.box-twitch article.container{
-	border: 1px solid #00acee; width: 1080px; height: 380px;
+	border: 1px solid #6441a5; width: 1080px; height: 380px;
+	position: relative;
+}
+
+section.box-twitch article.container center{
+	height: 378px;
+}
+
+section.box-twitch article.container center div.slide{
+   position: relative; height: 378px; display: inline-block; max-width: 500px; width: 100%; 
+
 }
 
 
@@ -234,6 +277,16 @@ section.box-facebook header center nav ul li a:hover {
 
 section.box-facebook article.container{
 	border: 1px solid #3b5998; width: 1080px; height: 380px;
+	position: relative;
+}
+
+section.box-facebook article.container center{
+	height: 378px;
+}
+
+section.box-facebook article.container center div.slide{
+   position: relative; height: 378px; display: inline-block; max-width: 500px; width: 100%; 
+
 }
 
 
