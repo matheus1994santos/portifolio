@@ -89,11 +89,11 @@ header div.container nav ul.menu-desktop li{
 }
 
 header div.container nav ul.menu-desktop li a {
-	color: white; font-size: 19px;
+	color: white; font-size: 19px; 
 }
 
 header div.container nav ul.menu-desktop li a:hover {
-	border-bottom: 4px solid white;
+	border-bottom: 4px solid white; 
 }
 
 header div.container nav ul.menu-mobile{
@@ -163,7 +163,7 @@ section.box-youtube header center nav {
 
 section.box-youtube header center nav ul {
 	/* position: relative; left: 40px; top: 48px; */
-	display: flex; text-align: center;
+	display: flex; text-align: center; 
 }
 
 section.box-youtube header center nav ul li {
@@ -216,7 +216,7 @@ section.box-twitch header center nav ul {
 }
 
 section.box-twitch header center nav ul li {
-	display: inline-flex; padding: 10px 4%;  
+	display: inline-flex; padding: 10px 4%;   
 }
 
 section.box-twitch header center nav ul li a {
