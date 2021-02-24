@@ -1,19 +1,20 @@
 /* Standard settings */
 *{
-    margin: 0; padding: 0; box-sizing: border-box;
+    margin: 0; padding: 0; box-sizing: border-box; 
 }
 
 .container, #container{
 	max-width: 980px; padding: 0 2%; margin: 0 auto;
 }
 
-header{display: inline-block; width: 100%;}
+header{display: inline-block; width: 100%; overflow: hidden;}
 
 a{
 	color: black; text-decoration: none;
+	word-break: break-all;
 }
 
-li{ list-style: none;}
+li{ list-style: none; }
 
 .clear{clear: both;}
 
@@ -150,7 +151,7 @@ section.cont-banner center img{
 /* ************* -------------------------------------        Youtube      ------------------------------------------- **************** */
 
 section.box-youtube{
-	display: inline-block; width: 100%; 
+	display: inline-block; width: 100%; overflow: hidden; 
 }
 
 section.box-youtube header{
@@ -199,7 +200,7 @@ section.box-youtube article.container center div.slide{
 /* ************* -------------------------------------         Twitch       ------------------------------------------- **************** */
 
 section.box-twitch{
-	display: inline-block; width: 100%; 
+	display: inline-block; width: 100%;  overflow: hidden;
 }
 
 section.box-twitch header{
@@ -247,7 +248,7 @@ section.box-twitch article.container center div.slide{
 /* ************* -------------------------------------        Facebook      ------------------------------------------- **************** */
 
 section.box-facebook{
-	display: inline-block; width: 100%; 
+	display: inline-block; width: 100%;  overflow: hidden;
 }
 
 section.box-facebook header{
@@ -295,7 +296,7 @@ section.box-facebook article.container center div.slide{
 
 /* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
 
-footer{display: inline-block; width: 100%;}
+footer{display: inline-block; width: 100%; overflow: hidden;}
 
 footer header { background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
 
