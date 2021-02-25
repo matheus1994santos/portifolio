@@ -110,9 +110,9 @@ header div.container nav ul.menu-mobile li{position: relative; top: 38px; backgr
 	}
 	/*  -----   Standard settings ------ */
 
-	header{ max-width: 340px; width: 100%;}
+	header{ max-width: 480px; width: 100%;}
 	
-	section#container{  }
+	section#container{ max-width: 420px; width: 100%; }
 
 	header div.container a.logo{
 		margin: 12px 0 2px 0; 
