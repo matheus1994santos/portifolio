@@ -40,7 +40,7 @@ li{ list-style: none; }
 	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px;
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 500px){
 	.vd1{
 		max-width: 280px; left: 45px; top: 0; top: 110px;
 	}
@@ -103,16 +103,16 @@ header div.container nav ul.menu-mobile{
 
 header div.container nav ul.menu-mobile li{position: relative; top: 38px; background-color: white; border-radius: 18px 18px;}
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
 	/*  -----   Standard settings ------ */
 	.container, #container{
-		max-width: 400px; padding: 0 2%; margin: 0 auto;
+		max-width: 390px; padding: 0 2%; margin: 0 auto;
 	}
 	/*  -----   Standard settings ------ */
 
-	header{ max-width: 480px; width: 100%;}
+	header{ max-width: 500px; width: 100%;}
 	
-	section#container{ max-width: 420px; width: 100%; }
+	section#container{  }
 
 	header div.container a.logo{
 		margin: 12px 0 2px 0; 
@@ -129,10 +129,6 @@ header div.container nav ul.menu-mobile li{position: relative; top: 38px; backgr
 		position: relative; top: 34px; background-color: white; border-radius: 18px 18px;
 	}
 	
-	
-	section.cont-banner center img{
-		max-width: 340px; padding: 0 4%; 
-	}
 
 } 
 
@@ -197,25 +193,6 @@ section.box-youtube article.container center div.slide{
 
 }
 
-@media only screen and (max-width: 480px) { 
-	section.box-youtube article.container center div.slide video.vd1 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-	section.box-youtube article.container center div.slide video.vd2 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-	section.box-youtube article.container center div.slide video.vd3 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-
- }
-
 
 
 /* ************* -------------------------------------         Youtube      ------------------------------------------- **************** */
@@ -265,25 +242,6 @@ section.box-twitch article.container center div.slide{
 
 }
 
-@media only screen and (max-width: 480px) { 
-	section.box-twitch article.container center div.slide video.vd1 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-	section.box-twitch article.container center div.slide video.vd2 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-	section.box-twitch article.container center div.slide video.vd3 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-
- }
-
 
 /* ************* -------------------------------------         Twitch       ------------------------------------------- **************** */
 
@@ -332,31 +290,13 @@ section.box-facebook article.container center div.slide{
 
 }
 
-@media only screen and (max-width: 480px) { 
-	section.box-facebook article.container center div.slide video.vd1 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-	section.box-facebook article.container center div.slide video.vd2 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-	section.box-facebook article.container center div.slide video.vd3 {
-		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
-	
-	}
-
-
- }
 
 
 /* ************* -------------------------------------        Facebook      ------------------------------------------- **************** */
 
 /* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
 
-footer{display: inline-block; width: 100%; overflow: hidden; background-image: linear-gradient(rgba(252, 33, 33, 0.8), rgba(41, 133, 194,0.8)); }
+footer{display: inline-block; width: 100%; overflow: hidden;}
 
 footer header { background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
 
@@ -378,11 +318,5 @@ footer div.container nav ul.footer-nav1 li { margin: 8px 0; }
 footer div.container nav ul.footer-nav2 { float: right; }
 
 footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
-
-@media only screen and (max-width: 480px) { 
-	
-	footer header center a img { width: 110px; opacity: 0.7; }
-
- }
 
 /* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
