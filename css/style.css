@@ -40,7 +40,7 @@ li{ list-style: none; }
 	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 430px){
 	.vd1{
 		max-width: 280px; left: 45px; top: 0; top: 110px;
 	}
@@ -103,14 +103,14 @@ header div.container nav ul.menu-mobile{
 
 header div.container nav ul.menu-mobile li{position: relative; top: 38px; background-color: white; border-radius: 18px 18px;}
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 430px) {
 	/*  -----   Standard settings ------ */
 	.container, #container{
-		max-width: 390px; padding: 0 2%; margin: 0 auto;
+		max-width: 340px; padding: 0 2%; margin: 0 auto;
 	}
 	/*  -----   Standard settings ------ */
 
-	header{ max-width: 500px; width: 100%;}
+	header{ max-width: 340px; width: 100%;}
 	
 	section#container{  }
 
@@ -118,7 +118,7 @@ header div.container nav ul.menu-mobile li{position: relative; top: 38px; backgr
 		margin: 12px 0 2px 0; 
 	}
 
-	header div.container a.logo div{ width: 120px; height: 60px; }
+	header div.container a.logo div{ width: 70px; height: 40px; }
 
 	header div.container nav ul.menu-desktop{ display: none; }
 
@@ -296,7 +296,7 @@ section.box-facebook article.container center div.slide{
 
 /* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
 
-footer{display: inline-block; width: 100%; overflow: hidden;}
+footer{display: inline-block; width: 100%; overflow: hidden; background-image: linear-gradient(rgba(252, 33, 33, 0.8), rgba(41, 133, 194,0.8)); }
 
 footer header { background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
 
@@ -307,6 +307,16 @@ footer header center a {  }
 footer header center a img { width: 180px; opacity: 0.7; }
 footer header center a img:hover { opacity: 1; }
 
-footer div.container {  }
+footer div.container { height: 130px; }
+
+footer div.container nav{ position: relative; top: 25px; }
+
+footer div.container nav ul.footer-nav1 { float: left; }
+
+footer div.container nav ul.footer-nav1 li { margin: 8px 0; }
+
+footer div.container nav ul.footer-nav2 { float: right; }
+
+footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
 
 /* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
