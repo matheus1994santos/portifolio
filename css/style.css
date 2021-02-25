@@ -103,10 +103,10 @@ header div.container nav ul.menu-mobile{
 
 header div.container nav ul.menu-mobile li{position: relative; top: 38px; background-color: white; border-radius: 18px 18px;}
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 480px) {
 	/*  -----   Standard settings ------ */
 	.container, #container{
-		max-width: 340px; padding: 0 2%; margin: 0 auto;
+		max-width: 400px; padding: 0 2%; margin: 0 auto;
 	}
 	/*  -----   Standard settings ------ */
 
@@ -118,7 +118,7 @@ header div.container nav ul.menu-mobile li{position: relative; top: 38px; backgr
 		margin: 12px 0 2px 0; 
 	}
 
-	header div.container a.logo div{ width: 70px; height: 40px; }
+	header div.container a.logo div{ width: 120px; height: 60px; }
 
 	header div.container nav ul.menu-desktop{ display: none; }
 
