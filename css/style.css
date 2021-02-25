@@ -129,6 +129,10 @@ header div.container nav ul.menu-mobile li{position: relative; top: 38px; backgr
 		position: relative; top: 34px; background-color: white; border-radius: 18px 18px;
 	}
 	
+	
+	section.cont-banner center img{
+		max-width: 340px; padding: 0 4%; 
+	}
 
 } 
 
@@ -193,6 +197,25 @@ section.box-youtube article.container center div.slide{
 
 }
 
+@media only screen and (max-width: 480px) { 
+	section.box-youtube article.container center div.slide video.vd1 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+	section.box-youtube article.container center div.slide video.vd2 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+	section.box-youtube article.container center div.slide video.vd3 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+
+ }
+
 
 
 /* ************* -------------------------------------         Youtube      ------------------------------------------- **************** */
@@ -242,6 +265,25 @@ section.box-twitch article.container center div.slide{
 
 }
 
+@media only screen and (max-width: 480px) { 
+	section.box-twitch article.container center div.slide video.vd1 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+	section.box-twitch article.container center div.slide video.vd2 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+	section.box-twitch article.container center div.slide video.vd3 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+
+ }
+
 
 /* ************* -------------------------------------         Twitch       ------------------------------------------- **************** */
 
@@ -290,6 +332,24 @@ section.box-facebook article.container center div.slide{
 
 }
 
+@media only screen and (max-width: 480px) { 
+	section.box-facebook article.container center div.slide video.vd1 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+	section.box-facebook article.container center div.slide video.vd2 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+	section.box-facebook article.container center div.slide video.vd3 {
+		position: relative; height: 378px; display: inline-block; max-width: 390px; width: 100%; 
+	
+	}
+
+
+ }
 
 
 /* ************* -------------------------------------        Facebook      ------------------------------------------- **************** */
@@ -318,5 +378,11 @@ footer div.container nav ul.footer-nav1 li { margin: 8px 0; }
 footer div.container nav ul.footer-nav2 { float: right; }
 
 footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
+
+@media only screen and (max-width: 480px) { 
+	
+	footer header center a img { width: 110px; opacity: 0.7; }
+
+ }
 
 /* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
