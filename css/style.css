@@ -364,11 +364,11 @@ footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
 	/* Twitch Mobile */
 
 	section.box-twitch  header center nav {
-		margin: 0 2%; width: 430px;
+		margin: 0 2%; width: 436px;
 	}
 
 	section.box-twitch header center nav ul li{
-		width: 136px;		
+		width: 135px;		
 	}
 
 	section.box-twitch   header center nav ul li a {
