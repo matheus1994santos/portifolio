@@ -348,7 +348,11 @@ footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
 	/* Youtube Mobile */
 
 	section.box-youtube header center nav {
-		margin: 0 2%; width: 355px;
+		margin: 0 2%; width: 400px;
+	}
+
+	section.box-twitch header center nav ul li{
+		width: 135px;	
 	}
 
 	section.box-youtube header center nav ul li a {
@@ -360,7 +364,11 @@ footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
 	/* Twitch Mobile */
 
 	section.box-twitch  header center nav {
-		margin: 0 2%; width: 355px;
+		margin: 0 2%; width: 400px;
+	}
+
+	section.box-twitch header center nav ul li{
+		width: 135px;		
 	}
 
 	section.box-twitch   header center nav ul li a {
@@ -372,7 +380,11 @@ footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
 	/* Facebook Mobile */
 
 	section.box-facebook header center nav {
-		margin: 0 2%; width: 355px;
+		margin: 0 2%; width: 400px;
+	}
+
+	section.box-twitch header center nav ul li{
+		width: 135px;	
 	}
 
 	section.box-facebook header center nav ul li a {
