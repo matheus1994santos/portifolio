@@ -40,29 +40,10 @@ li{ list-style: none; }
 	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px;
 }
 
-@media only screen and (max-width: 500px){
-	.vd1{
-		max-width: 280px; left: 45px; top: 0; top: 110px;
-	}
-	.vd2{
-		max-width: 280px; left: 45px; top: 0; top: 110px;
-	}
-	.vd3{
-		max-width: 280px; left: 45px; top: 0; top: 110px;
-	}
 
-	.seta-right{
-		right: 0; top: 0; top: 165px;
-	}
-	
-	.seta-left{
-		left: 0; left: 4px;
-	}
-}
 
 /*  -----   Standard settings ------ */
 
-/* @media Query Maximum width 430px in the header */
 
 header.header{background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
 
@@ -101,36 +82,7 @@ header div.container nav ul.menu-mobile{
 	display: none;
 }
 
-header div.container nav ul.menu-mobile li{position: relative; top: 38px; background-color: white; border-radius: 18px 18px;}
 
-@media only screen and (max-width: 500px) {
-	/*  -----   Standard settings ------ */
-	.container, #container{
-		max-width: 390px; padding: 0 2%; margin: 0 auto;
-	}
-	/*  -----   Standard settings ------ */
-
-	header{ max-width: 500px; width: 100%;}
-	
-	section#container{  }
-
-	header div.container a.logo{
-		margin: 12px 0 2px 0; 
-	}
-
-	header div.container a.logo div{ width: 120px; height: 60px; }
-
-	header div.container nav ul.menu-desktop{ display: none; }
-
-	header div.container nav ul.menu-mobile{ display: inline-block; width: 78px; height: auto; margin: 8px 1%; text-align: center;}
-
-	header div.container nav ul.menu-mobile li{
-		display:inline-block; width:70px;  margin: -1px 2px; border: 1px solid black;
-		position: relative; top: 34px; background-color: white; border-radius: 18px 18px;
-	}
-	
-
-} 
 
 /* ************* -------------------------------------        Banner       ------------------------------------------- **************** */
 
@@ -296,7 +248,7 @@ section.box-facebook article.container center div.slide{
 
 /* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
 
-footer{display: inline-block; width: 100%; overflow: hidden;}
+footer{display: inline-block; width: 100%; overflow: hidden;  background-image: linear-gradient(rgba(252, 33, 33, 0.8), rgba(41, 133, 194,0.8));}
 
 footer header { background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
 
@@ -319,4 +271,119 @@ footer div.container nav ul.footer-nav2 { float: right; }
 
 footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
 
-/* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
+/* ************* ---------------------------------         Footer       -------------------------------------- **************** */
+
+@media only screen and (max-width: 500px){
+	/*  -----   Standard settings ------ */
+
+	.container, #container{	max-width: 380px; padding: 0 2%; margin: 0 auto; }
+	
+	/*  -----   Standard settings ------ */
+
+	header{ max-width: 480px; width: 100%;}
+
+	.vd1{
+		max-width: 230px; left: 66px; top: 0px; top: 120px;
+	}
+	.vd2{
+		max-width: 230px; left: 66px; top: 0; top: 120px;
+	}
+	.vd3{
+		max-width: 230px; left: 66px; top: 0; top: 120px;
+	}
+
+	.seta-right{
+		right: 0; right: 8px; top: 0; top: 165px; cursor: pointer;
+	}
+	
+	.seta-left{
+		left: 0; left: 10px; cursor: pointer;
+	}
+
+	/* header mobile */
+
+	section#container{  }
+
+	header div.container a.logo{ margin: 12px 0 2px 0; }
+
+	header div.container a.logo div{ width: 120px; height: 60px; left: 18px; }
+
+	header div.container nav ul.menu-desktop{ display: none; }
+
+	header div.container nav ul.menu-mobile{ 
+		display: inline-block; width: 78px; height: auto; 
+		margin: 8px 1%; text-align: center;
+	}
+
+	header div.container nav ul.menu-mobile li{
+		display:inline-block; width:70px;  margin: 3px 2px; /* border: 1px solid black;*/
+		position: relative; top: 8px; /*background-color: white; border-radius: 18px 18px;*/
+	}
+	header div.container nav ul.menu-mobile li a {
+		color: white; font-size: 16px; 
+	}
+
+	header div.container nav ul.menu-mobile li a:hover {
+		border-bottom: 4px solid white; 
+	}
+
+	/* header mobile */
+
+	/* Banner mobile */
+
+	section.cont-banner{
+		/* display: inline-block; width: 100%;  */
+	}
+	
+	section.cont-banner center{
+		/* max-width: 980px; margin: 0 auto; */
+	}
+	
+	section.cont-banner center img{,
+		/* max-width: 760px; width: 100%; padding: 0 4%;  */
+	}
+
+	/* Banner mobile */
+
+	/* Youtube Mobile */
+
+	section.box-youtube header center nav {
+		margin: 0 2%; width: 400px;
+	}
+
+	section.box-youtube header center nav ul li a {
+		color: white; font-size: 16px;
+	}
+
+	/* Youtube Mobile */
+
+	/* Twitch Mobile */
+
+	section.box-twitch  header center nav {
+		margin: 0 2%; width: 400px;
+	}
+
+	section.box-twitch   header center nav ul li a {
+		color: white; font-size: 16px;
+	}
+
+	/* Twitch Mobile */
+
+	/* Facebook Mobile */
+
+	section.box-facebook header center nav {
+		margin: 0 2%; width: 400px;
+	}
+
+	section.box-facebook header center nav ul li a {
+		color: white; font-size: 16px;
+	}	
+
+	/* Facebook Mobile */
+
+	/* Footer Mobile */
+
+	
+
+	/* Footer Mobile */
+}
