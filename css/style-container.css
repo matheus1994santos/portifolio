@@ -1,0 +1,27 @@
+.cont-100porcem { 
+    width: 100%; margin: 0 auto; background-color: #D6A474; 
+ }
+.cont-96porcem { 
+    width: 96%; margin: 0 auto; background-color: #DACB7F; 
+ }
+.cont-1280 {
+    max-width: 1280px; margin: 0 auto; background-color: #B8A235; height: auto;
+}
+.cont-1200 {
+    max-width: 1200px; margin: 0 auto; background-color: #5C511B; height: auto;
+}
+.cont-980 { 
+    max-width: 980px; margin: 0 auto; background-color: #000000; height: auto;
+ }
+.cont-720 { 
+    max-width: 720px; margin: 0 auto; background-color: #D6C673; height: auto;
+ }
+.cont-640 { 
+    max-width: 640px; margin: 0 auto; background-color: #E5DBA6; height: auto;
+ }
+.cont-480 { 
+    max-width: 480px; margin: 0 auto; background-color: #EEE7C4; height: auto;
+ }
+.cont-320 { 
+    max-width: 320px; margin: 0 auto; background-color: #B0AD9B; height: auto;
+ }

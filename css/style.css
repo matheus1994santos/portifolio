@@ -1,401 +1,54 @@
-/* Standard settings */
-*{
-    margin: 0; padding: 0; box-sizing: border-box; 
-}
-
-.container, #container{
-	max-width: 980px; padding: 0 2%; margin: 0 auto;
-}
-
-header{display: inline-block; width: 100%; overflow: hidden;}
-
-a{
-	color: black; text-decoration: none;
-	word-break: break-all;
-}
-
-li{ list-style: none; }
-
-.clear{clear: both;}
-
-.seta-right{
-	display: inline-block; margin: 0 0 -4px -4px; padding: 0; width: 50px; height: 50px;
-	background-image: url('../image/icon/seta-right.png'); background-size: contain;
-	position: absolute;   right: 0; right: 40px; top: 155px; cursor: pointer;
-}
-
-.seta-left{
-	display: inline-block; margin: 0 0 -4px -4px; padding: 0; width: 50px; height: 50px;
-	background-image: url('../image/icon/seta-left.png'); background-size: contain;
-	position: absolute; left: 0; left: 40px; top: 168px; cursor: pointer;
-}
-
-.vd1{
-	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px;
-}
-.vd2{
-	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px; 
-}
-.vd3{
-	max-width: 460px;  position: absolute; top: 65px; left: 0;  left: 15px;
-}
-
-
-
-/*  -----   Standard settings ------ */
-
-
-header.header{background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
-
-header div.container a.logo{
-	float: left; margin: 15px 0 2px 0; width: 90px; font-size: 22px; 
-}
-
-header div.container a.logo div{ 
-	position: relative; right: 40px;
-	display: inline-block;  width: 180px; height: 90px; border-radius:20px 20px; 
-	background: url('../image/logo/NorFerro.txt1.gif'); background-size: cover; background-position: center; background-repeat: no-repeat;
-}
-
-header div.container nav {
-	float: right; margin-right: 2%; 
-}
-
-header div.container nav ul.menu-desktop{
-	position: relative; left: 40px; top: 48px;
-	display: flex; text-align: center;
-}
-
-header div.container nav ul.menu-desktop li{
-	display: inline-flex; width: 85px;  
-}
-
-header div.container nav ul.menu-desktop li a {
-	color: white; font-size: 19px; 
-}
-
-header div.container nav ul.menu-desktop li a:hover {
-	border-bottom: 4px solid white; 
-}
-
-header div.container nav ul.menu-mobile{
-	display: none;
-}
-
-
-
-/* ************* -------------------------------------        Banner       ------------------------------------------- **************** */
-
-section.cont-banner{
-	display: inline-block; width: 100%; 
-}
-
-section.cont-banner center{
-	max-width: 980px; margin: 0 auto;
-}
-
-section.cont-banner center img{
-	max-width: 760px; width: 100%; padding: 0 4%; 
-}
-
-/* ************* -------------------------------------        Banner       ------------------------------------------- **************** */
-
-/* ************* -------------------------------------        Youtube      ------------------------------------------- **************** */
-
-section.box-youtube{
-	display: inline-block; width: 100%; overflow: hidden; 
-}
-
-section.box-youtube header{
-	background-color:  #c4302b; height: 42px;
-}
-
-section.box-youtube header center nav {
-	margin: 0 2%; width: 500px;
-}
-
-section.box-youtube header center nav ul {
-	/* position: relative; left: 40px; top: 48px; */
-	display: flex; text-align: center; 
-}
-
-section.box-youtube header center nav ul li {
-	display: inline-flex; padding: 10px 4%;  
-}
-
-section.box-youtube header center nav ul li a {
-	color: white; font-size: 19px;
-}
-
-section.box-youtube header center nav ul li a:hover {
-	border-bottom: 4px solid white;
-}
-
-section.box-youtube article.container{
-	border: 1px solid #c4302b;  width: 1080px; width: 100%; height: 380px;
-	position: relative;
-}
-
-section.box-youtube article.container center{
-	 height: 378px;
-}
-
-section.box-youtube article.container center div.slide{
-	position: relative; height: 378px; display: inline-block; max-width: 500px; width: 100%; 
-
-}
-
-
-
-/* ************* -------------------------------------         Youtube      ------------------------------------------- **************** */
-
-/* ************* -------------------------------------         Twitch       ------------------------------------------- **************** */
-
-section.box-twitch{
-	display: inline-block; width: 100%;  overflow: hidden;
-}
-
-section.box-twitch header{
-	background-color: #6441a5; height: 42px;
-}
-
-section.box-twitch header center nav {
-	margin: 0 2%; width: 500px;
-}
-
-section.box-twitch header center nav ul {
-	/* position: relative; left: 40px; top: 48px; */
-	display: flex; text-align: center;
-}
-
-section.box-twitch header center nav ul li {
-	display: inline-flex; padding: 10px 4%;   
-}
-
-section.box-twitch header center nav ul li a {
-	color: white; font-size: 19px;
-}
-
-section.box-twitch header center nav ul li a:hover {
-	border-bottom: 4px solid white;
-}
-
-section.box-twitch article.container{
-	border: 1px solid #6441a5; width: 1080px; height: 380px;
-	position: relative;
-}
-
-section.box-twitch article.container center{
-	height: 378px;
-}
-
-section.box-twitch article.container center div.slide{
-   position: relative; height: 378px; display: inline-block; max-width: 500px; width: 100%; 
-
-}
-
-
-/* ************* -------------------------------------         Twitch       ------------------------------------------- **************** */
-
-/* ************* -------------------------------------        Facebook      ------------------------------------------- **************** */
-
-section.box-facebook{
-	display: inline-block; width: 100%;  overflow: hidden;
-}
-
-section.box-facebook header{
-	background-color: #3b5998; height: 42px;
-}
-
-section.box-facebook header center nav {
-	margin: 0 2%; width: 500px;
-}
-
-section.box-facebook header center nav ul {
-	/* position: relative; left: 40px; top: 48px; */
-	display: flex; text-align: center;
-}
-
-section.box-facebook header center nav ul li {
-	display: inline-flex; padding: 10px 4%;  
-}
-
-section.box-facebook header center nav ul li a {
-	color: white; font-size: 19px;
-}
-
-section.box-facebook header center nav ul li a:hover {
-	border-bottom: 4px solid white;
-}
-
-section.box-facebook article.container{
-	border: 1px solid #3b5998; width: 1080px; height: 380px;
-	position: relative;
-}
-
-section.box-facebook article.container center{
-	height: 378px;
-}
-
-section.box-facebook article.container center div.slide{
-   position: relative; height: 378px; display: inline-block; max-width: 500px; width: 100%; 
-
-}
-
-
-
-/* ************* -------------------------------------        Facebook      ------------------------------------------- **************** */
-
-/* ************* -------------------------------------         Footer       ------------------------------------------- **************** */
-
-footer{display: inline-block; width: 100%; overflow: hidden;  background-image: linear-gradient(rgba(252, 33, 33, 0.8), rgba(41, 133, 194,0.8));}
-
-footer header { background-image: linear-gradient(rgba(41, 133, 194,0.8),rgba(252, 33, 33, 0.8)); }
-
-footer header center {  }
-
-footer header center a {  }
-
-footer header center a img { width: 180px; opacity: 0.7; }
-footer header center a img:hover { opacity: 1; }
-
-footer div.container { height: 130px; }
-
-footer div.container nav{ position: relative; top: 25px; }
-
-footer div.container nav ul.footer-nav1 { float: left; }
-
-footer div.container nav ul.footer-nav1 li { margin: 8px 0; }
-
-footer div.container nav ul.footer-nav2 { float: right; }
-
-footer div.container nav ul.footer-nav2 li { margin: 8px 0; }
-
-/* ************* ---------------------------------         Footer       -------------------------------------- **************** */
-
-@media only screen and (max-width: 500px){
-	/*  -----   Standard settings ------ */
-
-	.container, #container{	max-width: 380px; padding: 0 2%; margin: 0 auto; }
-	
-	/*  -----   Standard settings ------ */
-
-	header{ max-width: 480px; width: 100%;}
-
-	.vd1{
-		max-width: 230px; left: 66px; top: 0px; top: 120px;
-	}
-	.vd2{
-		max-width: 230px; left: 66px; top: 0; top: 120px;
-	}
-	.vd3{
-		max-width: 230px; left: 66px; top: 0; top: 120px;
-	}
-
-	.seta-right{
-		right: 0; right: 8px; top: 0; top: 165px; cursor: pointer;
-	}
-	
-	.seta-left{
-		left: 0; left: 10px; cursor: pointer;
-	}
-
-	/* header mobile */
-
-	section#container{  }
-
-	header div.container a.logo{ margin: 12px 0 2px 0; }
-
-	header div.container a.logo div{ width: 120px; height: 60px; left: 18px; }
-
-	header div.container nav ul.menu-desktop{ display: none; }
-
-	header div.container nav ul.menu-mobile{ 
-		display: inline-block; width: 78px; height: auto; 
-		margin: 8px 1%; text-align: center;
-	}
-
-	header div.container nav ul.menu-mobile li{
-		display:inline-block; width:70px;  margin: 3px 2px; /* border: 1px solid black;*/
-		position: relative; top: 8px; /*background-color: white; border-radius: 18px 18px;*/
-	}
-	header div.container nav ul.menu-mobile li a {
-		color: white; font-size: 16px; 
-	}
-
-	header div.container nav ul.menu-mobile li a:hover {
-		border-bottom: 4px solid white; 
-	}
-
-	/* header mobile */
-
-	/* Banner mobile */
-
-	section.cont-banner{
-		/* display: inline-block; width: 100%;  */
-	}
-	
-	section.cont-banner center{
-		/* max-width: 980px; margin: 0 auto; */
-	}
-	
-	section.cont-banner center img{,
-		/* max-width: 760px; width: 100%; padding: 0 4%;  */
-	}
-
-	/* Banner mobile */
-
-	/* Youtube Mobile */
-
-	section.box-youtube header center nav {
-		margin: 0 2%; width: 430px;
-	}
-
-	section.box-twitch header center nav ul li{
-		width: 135px;	
-	}
-
-	section.box-youtube header center nav ul li a {
-		color: white; font-size: 12px;
-	}
-
-	/* Youtube Mobile */
-
-	/* Twitch Mobile */
-
-	section.box-twitch  header center nav {
-		margin: 0 2%; width: 436px;
-	}
-
-	section.box-twitch header center nav ul li{
-				
-	}
-
-	section.box-twitch   header center nav ul li a {
-		color: white; font-size: 11px;
-	}
-
-	/* Twitch Mobile */
-
-	/* Facebook Mobile */
-
-	section.box-facebook header center nav {
-		margin: 0 2%; width: 430px;
-	}
-
-	section.box-twitch header center nav ul li{
-		width: 135px;	
-	}
-
-	section.box-facebook header center nav ul li a {
-		color: white; font-size: 12px;
-	}	
-
-	/* Facebook Mobile */
-
-	/* Footer Mobile */
-
-	
-
-	/* Footer Mobile */
-}
+*{ padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+body { background: #C2B88A; }
+
+/* Header */ /*  ------------------------------------------------------------------------------------------------------------------  */
+
+.cont-100porcem {
+    background: hsla(71, 80%, 72%, 1);
+
+    background: linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%);
+    
+    background: -moz-linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%); }
+
+.flex-header {
+    display: inline-flex; justify-content: space-around;
+    box-shadow: 8px 3px 8px 0px black;
+} 
+
+.Logo { display: flex; flex-direction: column; margin: 8px 2%; }
+.Logo h1 { font-family: 'Libre Baskerville', serif; font-weight: bold; font-style: italic; }
+.Logo h6 { font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400; }
+
+.menu { display: inline-flex; }
+.menu ul{ display: inline-flex; }
+.menu li{ flex-grow: 2; margin: auto 10px; list-style-type: none; font-family: 'Passion One', cursive; cursor: pointer;}
+
+/* Header */ /*  ------------------------------------------------------------------------------------------------------------------  */
+
+
+/* Bio  */ /*  ------------------------------------------------------------------------------------------------------------------  */
+
+.cont-980 { background: none !important; }
+
+.flex-bio { display: flex; flex-direction: column;  }
+.flex-bio .titulo { 
+    width: 100%; margin: 45px 0 25px 0; font-size: 1.2em; height: 40px; border: none; border-radius: 16px 16px;
+    background: linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%);
+    background: -moz-linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%);
+    background: -webkit-linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%); 
+    box-shadow: 3px 2px 4px 0px black;}
+.flex-bio .titulo h2 { font-size: 1.2em; display: flex; margin: 8px 60px; font-family: 'Dancing Script';  font-weight: bold; font-style: italic; }
+
+.flex-bio div {  margin: 0px auto 60px auto; border-radius: 12px 12px; display: flex;
+    background: linear-gradient(225deg, hsla(71, 80%, 72%, 0.6) 17%, hsla(36, 75%, 77%, 0.4) 52%, hsla(36, 78%, 67%, 0.4) 98%);
+    background: -moz-linear-gradient(225deg, hsla(71, 80%, 72%, 0.6) 17%, hsla(36, 75%, 77%, 0.4) 52%, hsla(36, 78%, 67%, 0.4) 98%);
+    background: -webkit-linear-gradient(225deg, hsla(71, 80%, 72%, 0.6) 17%, hsla(36, 75%, 77%, 0.4) 52%, hsla(36, 78%, 67%, 0.4) 98%);
+    box-shadow: 2px 5px 4px  black;}
+.flex-bio div img{ height: 540px; margin: 100px 30px 20px 30px; box-shadow: 3px 2px 4px 0px black; border-radius: 12px; }
+.flex-bio div  p { 
+    text-align: justify; font-family: 'Open Sans', sans-serif; line-height: 1.4em; margin: 35px 30px;
+    margin-bottom: 32px;  background: #00000027; padding: 30px; border-radius: 18px; box-shadow: 3px 2px 4px 0px black; }
+
+/* Bio  */ /*  ------------------------------------------------------------------------------------------------------------------  */
