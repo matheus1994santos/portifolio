@@ -23,8 +23,9 @@ body { background: #C2B88A; }
 
 .menu { display: inline-flex; }
 .menu ul{ display: inline-flex; }
-.menu li{ flex-grow: 2; margin: auto 10px; list-style-type: none; font-family: 'Passion One', cursive; cursor: pointer; }
-.menu li:hover{ border-bottom: 2px solid; }
+.menu a { color: black; text-decoration: none;  flex-grow: 2; margin: auto 10px; }
+.menu a li{ list-style-type: none; font-family: 'Passion One', cursive; }
+.menu a li:hover{ border-bottom: 2px solid; }
 
 /* Header */ /*  ------------------------------------------------------------------------------------------------------------------  */
 
