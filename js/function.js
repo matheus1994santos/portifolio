@@ -11,7 +11,7 @@ function scrollToPosition(to) {
 
 function scrollToIdOnClick(event) {
 	event.preventDefault();
-	const to = getScrollTopByHref(event.currentTarget)- 80;
+	const to = getScrollTopByHref(event.currentTarget)- 0;
 	scrollToPosition(to);
 }
 
@@ -33,7 +33,7 @@ function smoothScrollTo(endX, endY, duration) {
   const distanceY = endY - startY;
   const startTime = new Date().getTime();
 
-  duration = typeof duration !== 'undefined' ? duration : 400;
+  duration = typeof duration !== 'undefined' ? duration : 1900;
 
   // Easing function
   const easeInOutQuart = (time, from, distance, duration) => {

@@ -10,11 +10,11 @@ body { background: #C2B88A; }
     
     background: -moz-linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%);
     
-    background: -webkit-linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%); }
+    background: -webkit-linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%);  }
 
 .flex-header {
     display: inline-flex; justify-content: space-around;
-    box-shadow: 8px 3px 8px 0px black;
+    box-shadow: 8px 3px 8px 0px black; margin: 0px 0 45px 0 !important;
 } 
 
 .Logo { display: flex; flex-direction: column; margin: 8px 2%; }
@@ -36,7 +36,7 @@ body { background: #C2B88A; }
 
 .flex-bio { display: flex; flex-direction: column; }
 .flex-bio .titulo { 
-    margin: 45px 0 5px 0; font-size: 1.2em; height: 40px; border: none; border-radius: 16px 16px;
+    margin: 0px 0 5px 0; font-size: 1.2em; height: 40px; border: none; border-radius: 16px 16px;
     background: linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%);
     background: -moz-linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%);
     background: -webkit-linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%); 
