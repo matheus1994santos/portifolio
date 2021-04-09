@@ -1,3 +1,4 @@
+// Scroll Suave
 const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 
 function getScrollTopByHref(element) {
@@ -51,3 +52,5 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60); // 60 fps
 };
+// Scroll Suave
+

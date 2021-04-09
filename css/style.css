@@ -1,30 +1,31 @@
 *{ padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
-body { background: #C2B88A; }
+body { background: #4BF4F7; }
 
 /* Header */ /*  ------------------------------------------------------------------------------------------------------------------  */
 
 .cont-100porcem {
-    background: hsla(71, 80%, 72%, 1);
 
-    background: linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%);
-    
-    background: -moz-linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%);
-    
-    background: -webkit-linear-gradient(45deg, hsla(71, 80%, 72%, 1) 10%, hsla(36, 75%, 77%, 1) 38%, hsla(36, 78%, 67%, 1) 75%);  }
+background: hsla(221, 45%, 73%, 1);
+
+background: linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
+
+background: -moz-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
+
+background: -webkit-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);}
 
 .flex-header {
     display: inline-flex; justify-content: space-around;
-    box-shadow: 8px 3px 8px 0px black; margin: 0px 0 45px 0 !important;
+    box-shadow: 8px 3px 8px 0px black; margin: 0px 0 45px 0 !important; 
 } 
 
-.Logo { display: flex; flex-direction: column; margin: 8px 2%; }
+.Logo { display: flex; flex-direction: column; margin: 8px 2%; color: snow; }
 .Logo h1 { font-family: 'Libre Baskerville', serif; font-weight: bold; font-style: italic; }
 .Logo h6 { font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400; }
 
 .menu { display: inline-flex; }
 .menu ul{ display: inline-flex; }
 .menu a { color: black; text-decoration: none;  flex-grow: 2; margin: auto 10px; }
-.menu a li{ list-style-type: none; font-family: 'Passion One', cursive; }
+.menu a li{ list-style-type: none; font-family: 'Passion One', cursive; color: snow; }
 .menu a li:hover{ border-bottom: 2px solid; }
 
 /* Header */ /*  ------------------------------------------------------------------------------------------------------------------  */
@@ -37,10 +38,10 @@ body { background: #C2B88A; }
 .flex-bio { display: flex; flex-direction: column; }
 .flex-bio .titulo { 
     margin: 0px 0 5px 0; font-size: 1.2em; height: 40px; border: none; border-radius: 16px 16px;
-    background: linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%);
-    background: -moz-linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%);
-    background: -webkit-linear-gradient(270deg, hsla(71, 80%, 72%, 1) 17%, hsla(36, 75%, 77%, 1) 52%, hsla(36, 78%, 67%, 1) 98%); 
-    box-shadow: 3px 2px 4px 0px black;}
+    background: hsla(221, 45%, 73%, 1); color: snow;
+    background: linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
+    background: -moz-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
+    background: -webkit-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);}
 .flex-bio .titulo h2 { font-size: 1.2em; display: flex; margin: 8px 60px; font-family: 'Dancing Script';  font-weight: bold; font-style: italic; }
 
 .flex-bio div {  margin: 0px auto 60px auto; border-radius: 12px 12px; display: flex; flex-direction: row; flex-wrap: wrap;
