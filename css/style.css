@@ -1,21 +1,18 @@
-*{ padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+*{ padding: 0; margin: 0; box-sizing: border-box;}
 body { background: #4BF4F7; }
 
 /* Header */ /*  ------------------------------------------------------------------------------------------------------------------  */
 
-.cont-100porcem {
+.cont-100porcem {   }
 
-background: hsla(221, 45%, 73%, 1);
-
-background: linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
-
-background: -moz-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
-
-background: -webkit-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);}
 
 .flex-header {
     display: inline-flex; justify-content: space-around;
     box-shadow: 8px 3px 8px 0px black; margin: 0px 0 45px 0 !important; 
+    background: hsla(221, 45%, 73%, 1);
+    background: linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
+    background: -moz-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
+    background: -webkit-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
 } 
 
 .Logo { display: flex; flex-direction: column; margin: 8px 2%; color: snow; }
@@ -33,7 +30,7 @@ background: -webkit-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220
 
 /* Bio  */ /*  ------------------------------------------------------------------------------------------------------------------  */
 
-.cont-980 { background: none !important; min-width: 390px; }
+.cont-980 { background: none !important; min-width: 390px;  font-family: 'Roboto', sans-serif; }
 
 .flex-bio { display: flex; flex-direction: column; }
 .flex-bio .titulo { 
@@ -59,7 +56,7 @@ background: -webkit-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220
 
 /* Projetos  */ /*  ------------------------------------------------------------------------------------------------------------------  */
 
-.cont-1200 {  }
+.cont-1200 {  font-family: 'Roboto', sans-serif; }
 
 .proj { display: flex; background-color: #457b9d !important; border-radius: 66px; box-shadow: 3px 2px 4px 0px black; }
 .proj article{ margin: 2px auto; max-width: 980px;  }
@@ -76,3 +73,21 @@ background: -webkit-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220
 .proj article p{ margin: 12px 0px 42px 0px; max-width: 814px; text-align: justify; max-width: 814px; padding: 0 2%;}
 
 /* Projetos  */ /*  ------------------------------------------------------------------------------------------------------------------  */
+
+/* Contatos */ /*  ------------------------------------------------------------------------------------------------------------------  */
+.flex-contatos{ 
+    display: flex;  flex-direction: column; border-radius: 21px 21px; padding: 0 2%; margin-top: 12px !important; color: white;
+    background: hsla(221, 45%, 73%, 1); box-shadow: 3px 2px 3px 4px black;
+    background: linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
+    background: -moz-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);
+    background: -webkit-linear-gradient(180deg, hsla(221, 45%, 73%, 1) 27%, hsla(220, 78%, 29%, 1) 92%);}
+}
+
+.flex-contatos h2 {  }
+
+.flex-contatos nav{display: flex; }
+
+.flex-contatos nav div{ height: 80px; flex-grow: 1; color: white; 
+    margin: 8px 8px;  display: flex; flex-direction: column;
+    border-radius: 18px 18px; align-items: center;}
+.flex-contatos nav div a{ text-align: center; margin: auto; text-decoration: none; color: white; }
